@@ -11,7 +11,7 @@ body {
 
 .Checkout {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
 }
 
@@ -172,3 +172,73 @@ aside {
     height: 3rem;
 }
 
+.aside-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.aside-sub-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.line {
+    width: 15rem;
+    height: 1px;
+    background-color: #fff;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.payment-item-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.payment-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.front-card {
+    width: 55rem;
+    height: 30rem;
+}
+
+.back-card {
+    width: 55rem;
+    height: 30rem;
+}
